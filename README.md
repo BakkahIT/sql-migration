@@ -21,7 +21,7 @@ When working with complex database operations, Laravel's schema builder may not 
 Install the package in your Laravel project with:
 
 ```bash
-composer require bakkahIT/sql-migration
+composer require bakkahit/sql-migration
 ```
 
 ## Usage

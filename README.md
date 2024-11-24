@@ -24,6 +24,15 @@ Install the package in your Laravel project with:
 composer require bakkahit/sql-migration
 ```
 
+Open the `config/app.php` file in your Laravel project and add the `SqlMigrationServiceProvider` class to the list of providers, like this
+```bash
+    'providers' => [
+        // Other service providers...
+        BakkahIT\SqlMigration\SqlMigrationServiceProvider::class,
+    ]
+```
+
+
 ## Usage
 ### Step 1: Create a SQL Migration File
 You can create a new SQL migration file by using the following Artisan command:

@@ -108,5 +108,6 @@ We welcome contributions to the package! If you'd like to improve the package, f
 - Submit a pull request.
 
 ## License
+The `SqlMigration` package is open-source software licensed under the MIT License.
 
-The `SqlMigration` package is proprietary software and is intended for internal use by **BakkahIT** only. Redistribution or sharing of this package outside the company is strictly prohibited.
+ 

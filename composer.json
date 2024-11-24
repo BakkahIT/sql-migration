@@ -1,8 +1,9 @@
 {
-    "name": "bakka/sql-executor-migration",
+    "name": "bakkahIT/sql-migration",
     "description": "SqlMigration is a Laravel package that allows you to execute custom SQL migrations directly within your Laravel application. Instead of writing SQL queries manually or relying only on Laravel's built-in migrations, this package enables you to create and run .php migration files containing custom SQL commands like INSERT, DELETE, UPDATE, CREATE TABLE, and more.",
     "type": "library",
-    "license": "BakkahIT",
+    "keywords": ["laravel","migration","SqlMigration","sql"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "BakkahIT\\SqlMigration\\": "src/",

@@ -73,7 +73,7 @@ class SqlMigrationTest extends TestCase
 use Illuminate\\Database\\Migrations\\Migration;
 use Illuminate\\Support\\Facades\\DB;
 
-class {$name} extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -84,7 +84,7 @@ class {$name} extends Migration
     {
         DB::unprepared("DROP TABLE test_users;");
     }
-}
+};
 PHP);
 
         Artisan::call('migrate');

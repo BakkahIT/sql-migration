@@ -33,7 +33,7 @@ class MakeSqlMigrationCommand extends Command
 use Illuminate\\Database\\Migrations\\Migration;
 use Illuminate\\Support\\Facades\\DB;
 
-class {$name} extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -48,7 +48,7 @@ class {$name} extends Migration
         -- أدخل هنا أوامر SQL للإلغاء
         SQL);
     }
-}
+};
 PHP;
     }
 }

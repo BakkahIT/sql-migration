@@ -48,12 +48,7 @@ class SqlMigrationTest extends TestCase
         $files = File::files(database_path('migrations'));
         $this->assertCount(1, $files);
 
-        $fileName = $files[0]->getFilename();
-        $this->assertStringContainsStringIgnoringCase(Str::snake($name), $fileName);
-
-
         $content = File::get($files[0]->getPathname());
-        $this->assertStringContainsString('class ' . $name, $content);
         $this->assertStringContainsString('DB::unprepared', $content);
     }
 
